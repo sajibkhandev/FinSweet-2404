@@ -10,7 +10,7 @@ import Icon4 from '../assets/workIcon4.png'
 
 const Work = () => {
   return (
-    <section className='py-[128px]'>
+    <section className='py-[128px] bg-[#F4F6FC]'>
         <Container>
             <Flex>
                 <div className='w-5/12 relative'>

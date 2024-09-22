@@ -3,6 +3,7 @@ import Container from '../components/Container'
 import Flex from '../components/Flex'
 import BannerImage from '../assets/banner.png'
 import Button from '../components/Button'
+import Image from '../components/Image'
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Bnnaer = () => {
@@ -20,7 +21,7 @@ const Bnnaer = () => {
                     </div>
                 </div>
                 <div className='w-[50%]'>
-                    <img src={BannerImage} alt="" />
+                    <Image src={BannerImage}/>
                 </div>
 
             </Flex>

@@ -3,6 +3,7 @@ import Navber from './Layouts/Navber'
 import Container from './components/Container'
 import Bnnaer from './Layouts/Bnnaer'
 import Work from './Layouts/Work'
+import Project from './Layouts/Project'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Navber/>
       <Bnnaer/>
       <Work/>
+      <Project/>
 
     </div>
   )

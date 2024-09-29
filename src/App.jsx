@@ -4,6 +4,9 @@ import Container from './components/Container'
 import Bnnaer from './Layouts/Bnnaer'
 import Work from './Layouts/Work'
 import Project from './Layouts/Project'
+import FAQ from './components/FAQ'
+import Faqs from './components/Faqs'
+import FaqSection from './Layouts/FaqSection'
 
 const App = () => {
   return (
@@ -12,6 +15,7 @@ const App = () => {
       <Bnnaer/>
       <Work/>
       <Project/>
+      <FaqSection/>
 
     </div>
   )

@@ -7,6 +7,7 @@ import Project from './Layouts/Project'
 import FAQ from './components/FAQ'
 import Faqs from './components/Faqs'
 import FaqSection from './Layouts/FaqSection'
+import Contact from './Layouts/Contact'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Work/>
       <Project/>
       <FaqSection/>
+      <Contact/>
 
     </div>
   )
